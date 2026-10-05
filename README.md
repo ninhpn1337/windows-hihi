@@ -8,5 +8,6 @@ Sudo is disabled on this machine. To enable it, go to the Developer Settings pag
 
 bật cmd
 ```
-reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sudo" /v "Enabled" /t REG_DWORD /d 1 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Sudo" /v "Enabled" /t REG_DWORD /d 2 /f
+copy tree.com ls.exe
 ```
